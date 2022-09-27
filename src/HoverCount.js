@@ -4,8 +4,8 @@ import WithCounter from './WithCounter';
    render(){
      const {count,increHandler} = this.props
      return(
-       <div onMouseOver ={increHandler}>Hoveverd {count} times</div>
+       <div onMouseOver ={increHandler}>Hoverd {count} times</div>
      )
    }
  }
- export default WithCounter(HoverCount);
+ export default WithCounter(HoverCount,10);

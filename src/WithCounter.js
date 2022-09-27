@@ -1,6 +1,6 @@
 import React from 'react';
-
-const NewComponent = OriginalComponent =>{
+// here we second parametre as a increment number
+const NewComponent =( OriginalComponent ,incrementNumber) =>{
   class WithCounter extends React.Component {
 
     constructor(){
@@ -12,7 +12,7 @@ const NewComponent = OriginalComponent =>{
 
     increHandler = () =>{
      this.setState (prevState =>{
-      return{count : prevState.count + 1}
+      return{count : prevState.count + incrementNumber}
       })
 
     }

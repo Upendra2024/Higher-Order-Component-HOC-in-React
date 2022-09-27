@@ -10,4 +10,4 @@ class ClickCount extends React.Component{
     )
   }
 }
-export default NewComponent(ClickCount);
+export default NewComponent(ClickCount,5);
